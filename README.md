@@ -28,6 +28,7 @@ git clone https://github.com/markantoni24/Curso-FrontEnd.git
 ## commits
 informação de açteração 
 - apos testado todo seu codigo
+- git status
 - git add *
 - git commit -m "mensagem"
 - git push ( para enviar informações para o repositorio)
