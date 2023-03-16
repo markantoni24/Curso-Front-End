@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>HTML - formulario fale conosco</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./css/form-style.css" />
+  </head>
+  <body>
+    <header>
+      <h2><b>Formulario de Preenchimento</b></h2>
+    </header>
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li>
+            <a href="home">
+              <img width="20%" src="./images/home(1).png" alt="Inicio" />Home</a
+            >
+          </li>
+          <li>
+            <a href="05-layouts.html">
+              <img width="20%" src="./images/sobre.png" alt="Sobre" />about</a
+            >
+          </li>
+          <li>
+            <a href="#contato"
+              ><img
+                width="20%"
+                src="./images/livro-de-contato.png"
+                alt="Contato"
+              />contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <section>
+      <article>
+        <h1>contato</h1>
+        <p>preencha os campos abaixo</p>
+
+        <form method="post">
+          <div>
+            <label for="nome">Nome</label><br />
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="digite seu nome"
+            />
+          </div>
+
+          <div>
+            <label for="email">E-mail</label><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="digite seu E-mail"
+            />
+          </div>
+
+          <div>
+            <label for="mensagem">Mensagem</label><br />
+            <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+          </div>
+
+          <div>
+            <p>
+              <label>quais linguagens voce prefere?</label>
+              <input type="radio" name="linguagens" value="html" />
+              <img width="5%" src="./images/html-5.png" alt="HTML" />
+              <input type="radio" name="linguagens" value="css" />
+              <img width="5%" src="./images/css.png" alt="CSS" />
+
+              <input type="radio" name="linguagens" value="Javascript" />
+              <img width="5%" src="./images/script-java.png" alt="Javascript" />
+              <input type="checkbox" name="linguagens" value="Pyton" />
+              <img width="5%" src="./images/python.png" alt="Pyton" />
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <label>quais linguagens voce sabe?</label>
+              <input type="checkbox" name="linguagens" value="html" />
+              <img width="5%" src="./images/html-5.png" alt="HTML" />
+              <input type="checkbox" name="linguagens" value="Css" />
+              <img width="5%" src="./images/css.png" alt="CSS" />
+              <input type="checkbox" name="linguagens" value="Javascript" /><img
+                width="5%"
+                src="./images/script-java.png"
+                alt="Javascript"
+              />
+              <input type="checkbox" name="linguagens" value="Pyton" /><img
+                width="5%"
+                src="./images/python.png"
+                alt="Pyton"
+              />
+            </p>
+          </div>
+
+          <div>
+            <label>qual linguagem voce tem mais dificuldade?</label>
+            <select>
+              <option value="HTML">HTML</option>
+              <option value="CSS" selected>CSS</option>
+              <option value="Javascript">Javascript</option>
+            </select>
+          </div>
+
+          <div><input type="submit" /></div>
+        </form>
+      </article>
+    </section>
+
+    <footer>
+      <p>Desenvolvidor Marcus</p>
+    </footer>
+  </body>
+</html>
