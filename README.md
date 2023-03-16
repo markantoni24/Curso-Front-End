@@ -46,8 +46,8 @@ são ramificações / versões paralelas
 - dd definition of done: criterios de aceite
 - versionamento 1.0.0
 
-git checkout -b (cria uma branch)
-git checkout master (muda de branch)
+- git checkout -b (cria uma branch)
+- git checkout master (muda de branch)
 
 ### Merge
 Mescla de Branchs
