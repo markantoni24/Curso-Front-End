@@ -1,0 +1,134 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* HTML */
+  html {
+    font-size: 62.5%; 
+  }
+  
+  /* Body */
+  body {
+    background-color: #cccfd1;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+  }
+  
+  /* Container principal */
+  .main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(to left, rgb(211, 211, 211), rgb(255, 255, 255));
+    border-bottom: 2px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+  }
+  
+  header img {
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  #title {
+    flex: 1;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  /* SEO Image */
+  .seo-img {
+    position: relative;
+    top: 50px;
+    left: 800px;
+    width: 580px;
+    margin-left: 10px;
+  }
+  
+  /* Títulos */
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h2 {
+    font-size: 2.4rem;
+    color: #254159;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+    color: #254159;
+  }
+  
+  h4 {
+    font-size: 1.6rem;
+    color: #254159;
+  }
+  
+  /* Textos */
+  p {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
+  }
+  
+  /* Section */
+  section { 
+    background-color: #ffffff;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    margin-top: 50px;
+    padding: 20px;
+  }
+  
+  section nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5fe4f5;
+    padding: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 25px;
+  }
+  
+  section nav a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(2, 17, 65);
+    font-size: 25px;
+    color: #f7faff;
+  }
+  
+  footer p {
+    margin: 0;
+    padding: 20px;
+  }
+  
