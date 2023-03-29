@@ -1,0 +1,195 @@
+html {
+font-size: 62.5%; 
+margin: 0 auto;
+}
+
+body {
+background-color: #f1f1f1;
+font-family: Arial, Helvetica, sans-serif;
+padding: 15px;
+}
+
+.main-container {
+margin: 0 auto;
+padding: 20px;
+}
+
+header {
+  background: linear-gradient( to left, rgb(211, 211, 211), rgb(255, 255, 255));
+  border-bottom: 2px  solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+
+img {
+  width: 60%;
+}
+
+#title {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  padding: 20px;
+  flex-direction: row;
+  line-height: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.seo-img {
+  position: relative;
+  top: 50px;
+  left: 600px;
+  width: 580px;
+  display: flex;
+  margin-left: 10px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-bottom: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+
+span {
+  border-left: 5px solid #b481df85 ;
+  color: rgb(132, 14, 381);  
+}
+
+h2 {
+    position: relative;
+    top: -100px;
+    font-size: 2.4rem;
+    color: #365875;
+    line-height: 10px;
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: #254159;
+}
+
+h4{
+  font-size: 1.6rem;
+  color: #254159;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+section { 
+  background-color: #ffffff;
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #343636;
+}
+
+  section nav {
+    background-color: #7d848577;
+    box-sizing: content-box;
+    border: 1px solid rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+    border: 1px groove #000000;
+  }
+  
+  section nav a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  a:hover{
+    color: rgb(132, 14, 281); 
+    transition: 0.3s all;
+
+  }
+
+  #inscreva-se-btn {
+    border: 3px solid #797a7a57 ;
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+  #inscreva-se-btn:hover {
+    background-color: darkcyan;
+    color: #ffffff;
+  }
+   
+li {
+  display: inline-block; 
+  justify-content: space-between; 
+  margin: 20px;
+  align-items: center;
+}
+
+section article {
+width: 60%;
+margin: 25px;
+}
+
+.formulario {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  align-items: flex-start;
+}
+
+#tenho-interesse, .cog-form__container {
+  background-color: rgba(165, 190, 190, 0.719) !important;
+}
+
+footer {
+  margin-top: 30px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(1, 110, 110, 0.637); 
+  font-size: 25px;
+  color: #f7faff;
+}
+
+footer p {
+  margin: 0;
+  padding: 20px;
+}
+
+@media (max-width: 800px) {
+  section nav,
+  article, header {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .main-container {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  h2 {
+    text-align: left;
+    font-size: 1.6rem;
+    margin-right: 20px;
+  }
+
+  p {
+    font-size: 62.5%;
+  }
+
+  span {
+    font-size: 2.4rem;
+  }
+
+  .seo-img{
+    display: flex;
+    width: 120%;
+    left: 20%;
+    
+  }
+}
