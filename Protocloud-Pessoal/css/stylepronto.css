@@ -4,18 +4,19 @@ margin: 0 auto;
 }
 
 body {
-background-color: #f1f1f1;
+background-color: #ccc8c8c9;
 font-family: Arial, Helvetica, sans-serif;
-padding: 15px;
+padding: 10px;
 }
 
 .main-container {
+max-width: 1080px;
 margin: 0 auto;
 padding: 20px;
 }
 
 header {
-  background: linear-gradient( to left, rgb(211, 211, 211), rgb(255, 255, 255));
+  background: linear-gradient( to left, rgb(167, 165, 165), rgb(255, 255, 255));
   border-bottom: 2px  solid;
   display: flex;
   flex-direction: row;
@@ -40,9 +41,9 @@ img {
 .seo-img {
   position: relative;
   top: 50px;
-  left: 600px;
   width: 580px;
   display: flex;
+  display: inline;
   margin-left: 10px;
 }
 
@@ -52,19 +53,22 @@ h1 {
   margin-bottom: 25px;
   font-family: 'Poppins', sans-serif;
   font-family: 'Rubik', sans-serif;
+  
 }
 
 span {
   border-left: 5px solid #b481df85 ;
   color: rgb(132, 14, 381);  
+  display: inline;
+  line-height: 100%;
 }
 
 h2 {
-    position: relative;
-    top: -100px;
+    position: unset;
     font-size: 2.4rem;
     color: #365875;
     line-height: 10px;
+    margin-top: 15%;
 }
 
 h3 {
@@ -80,6 +84,7 @@ h4{
 p {
   font-family: 'Lato', sans-serif;
   font-family: 'Work Sans', sans-serif;
+  position: unset;
 }
 
 
@@ -87,21 +92,21 @@ section {
   background-color: #ffffff;
   font-size: 1.5rem;
   font-family: 'Lato', sans-serif;
-  margin-top: 50px;
-  padding: 20px;
+  margin-top: 20px;
   border: 1px solid #343636;
 }
 
   section nav {
-    background-color: #7d848577;
-    box-sizing: content-box;
+    background-color: #2d7179af;
     border: 1px solid rgb(255, 255, 255);
     font-weight: bold;
-    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
-    border: 1px groove #000000;
+    border: 1px groove #00000080;
+    display: flex;
+    flex-direction: column;
   }
   
   section nav a {
+    font-family: sans-serif;
     text-decoration: none;
     color: #000000;
   }
@@ -113,9 +118,10 @@ section {
   }
 
   #inscreva-se-btn {
-    border: 3px solid #797a7a57 ;
-    padding: 10px;
+    border: 3px solid #06070757 ;
+    padding: 5px;
     border-radius: 15px;
+    display: inline-block;
   }
 
   #inscreva-se-btn:hover {
@@ -136,60 +142,88 @@ margin: 25px;
 }
 
 .formulario {
-  width: 100%;
+  display: inline-block; 
+  width: 60%;
+  border: 1px solid black;
   background-color: rgb(255, 255, 255);
-  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  margin: 0 20% 0 20%;
 }
 
-#tenho-interesse, .cog-form__container {
+
+#tenho-interesse {
+  height: 10%;
   background-color: rgba(165, 190, 190, 0.719) !important;
+  margin: 10px;
+  display: block;
+  padding: 2%;
 }
 
 footer {
-  margin-top: 30px;
+  margin-top: 25px;
   display: block;
   justify-content: center;
   align-items: center;
   background-color: rgba(1, 110, 110, 0.637); 
   font-size: 25px;
-  color: #f7faff;
+  color: #070606;
 }
 
 footer p {
   margin: 0;
   padding: 20px;
+  font-family: sans-serif;
 }
 
-@media (max-width: 800px) {
-  section nav,
-  article, header {
+@media (min-width: 420px) and (max-width: 900px) {
+  article,  header  {
     width: 100%;
-    height: auto;
-    display: block;
+    height: 100%;
+    display: unset;
   }
+
   .main-container {
     padding-left: 1%;
     padding-right: 1%;
   }
 
-  h2 {
+  h2, h3, p {
+    display: block;
+    margin: 5px;
     text-align: left;
     font-size: 1.6rem;
-    margin-right: 20px;
+    margin: 10px;
+    
   }
 
-  p {
-    font-size: 62.5%;
-  }
 
   span {
     font-size: 2.4rem;
+    line-height: 100%;
   }
 
   .seo-img{
-    display: flex;
-    width: 120%;
-    left: 20%;
+position: unset;
+width: 80%;
+height: 100%;
+
+  }
+
+ section nav {
+    background-color: rgba(1, 110, 110, 0.445);
+    float: left;
+    border-radius: 15%;
+    display: block;
+    width: 30%;
+    padding: 10px;
     
+    
+  }
+
+  img {
+    width: 60%;
+    margin: 0 auto;
   }
 }
